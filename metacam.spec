@@ -1,7 +1,11 @@
+%define name metacam
+%define version 1.2
+%define release %mkrel 3
+
 Summary:	Command line tool to read the EXIF extensions in JPEG files
-Name:		metacam
-Version:	1.2
-Release:	2mdk
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
 License:	GPL
 Group:		Graphics
 
@@ -13,16 +17,11 @@ BuildRoot:	%_tmppath/%name-%version-%release-root
 %description
 
 Most digital cameras produce EXIF files, which are JPEG files with
-extra tags that contain information about the image.
+extra tags that contain information about the image. This tool can
+extract information from these tags.
 
-In contrary to the tools "exif" and "gexif" (and all other
-libexif-based tools as "gphoto2") this tool gives a much easier
-readable summary of camera settings. But the speciality of this
-program is that it knows many manufacturer-specific entries for Nikon,
-Canon, and Olympus cameras.
-
-The tool is very compact, the executable has only a size of around 87
-kb.
+The speciality of this program is that it knows many manufacturer-
+specific entries for Nikon, Canon, and Olympus cameras.
 
 %prep
 %setup -q
