@@ -15,7 +15,6 @@ Url:		http://www.cheeseplant.org/~daniel/pages/metacam.html
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
-
 Most digital cameras produce EXIF files, which are JPEG files with
 extra tags that contain information about the image. This tool can
 extract information from these tags.
