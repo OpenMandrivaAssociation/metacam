@@ -1,6 +1,6 @@
 %define name metacam
 %define version 1.2
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	Command line tool to read the EXIF extensions in JPEG files
 Name:		%{name}
