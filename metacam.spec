@@ -11,7 +11,7 @@ Group:		Graphics
 
 Source:		ftp://ftp.cheeseplant.org/pub/metacam-1.2.tar.bz2
 
-Url:		http://www.cheeseplant.org/~daniel/pages/metacam.html
+Url:		https://www.cheeseplant.org/~daniel/pages/metacam.html
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
