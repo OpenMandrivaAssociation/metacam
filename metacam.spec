@@ -14,6 +14,7 @@ Source:		ftp://ftp.cheeseplant.org/pub/metacam-1.2.tar.bz2
 Url:		https://www.cheeseplant.org/~daniel/pages/metacam.html
 BuildRoot:	%_tmppath/%name-%version-%release-root
 
+BuildRequires:	make
 %description
 Most digital cameras produce EXIF files, which are JPEG files with
 extra tags that contain information about the image. This tool can
